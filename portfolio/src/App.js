@@ -25,7 +25,7 @@ function App() {
               <h2 className="dev">Developer</h2>
             <div className="info">
               <h3>About me:</h3>
-              <p>Im a 23 year old Front-end developer based in Bergen, Norway</p>
+              <p>Im a 23 year old Front-end developer based in Bergen, Norway.<br></br> I love to play videogames and watch manny different sports.</p>
             </div>
           </div>
 
