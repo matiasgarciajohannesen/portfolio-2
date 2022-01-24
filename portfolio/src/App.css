@@ -27,6 +27,7 @@ button {
   color: white;
   background-color: black;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 
@@ -108,5 +109,36 @@ p {
   width: 200px;
   height: 200px;
   border-radius: 30%;
+  margin-top: 50px;
+}
+
+.contact {
+  display: flex;
+}
+
+.portrett {
+  margin-left: 80px;
+}
+
+.contLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+}
+
+.sosial {
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 80px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.sosial-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
   margin-top: 50px;
 }

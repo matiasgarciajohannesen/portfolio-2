@@ -4,6 +4,12 @@ import img1 from './img/f1.jpg';
 import img2 from './img/game.jpg';
 import img3 from './img/museum.jpg';
 import img4 from './img/portfolio1.jpg';
+import img5 from './img/portrett.jpg';
+import img6 from './img/twitter.jpg';
+import img7 from './img/instagram.jpg';
+import img8 from './img/linkedin-in.jpg';
+import img9 from './img/github.jpg';
+
 
 function App() {
   return (
@@ -41,6 +47,37 @@ function App() {
             <img className='project-img' src={img4}></img>
             </div>
           </div>
+
+
+          <div className='headLine'>
+            <h2>Contact me</h2>
+          </div>
+
+          <div className='contact'>
+            <div className='portrett'>
+              <img className='portrett-img' src={img5}></img>
+            </div>
+
+            <div className='contLinks'>
+              <div className="sosial">
+                <img className='sosial-img' src={img6}></img>
+              </div>
+
+              <div className="sosial">
+                <img className='sosial-img' src={img7}></img>
+              </div>
+
+              <div className="sosial">
+                <img className='sosial-img' src={img8}></img>
+              </div>
+
+              <div className="sosial">
+                <img className='sosial-img' src={img9}></img>
+              </div>
+
+            </div>
+          </div>
+
       </body>
     </div>
   );
