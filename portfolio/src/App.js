@@ -1,5 +1,9 @@
 
 import './App.css';
+import img1 from './img/f1.jpg';
+import img2 from './img/game.jpg';
+import img3 from './img/museum.jpg';
+import img4 from './img/portfolio1.jpg';
 
 function App() {
   return (
@@ -19,11 +23,23 @@ function App() {
             </div>
           </div>
 
+          <div className='headLine'>
+            <h2>My Projects</h2>
+          </div>
+
           <div className="links">
-            <div className="link-1"></div>
-            <div className="link-2"></div>
-            <div className="link-3"></div>
-            <div className="link-4"></div>
+            <div className="link-1">
+              <img className='project-img' src={img1}></img>
+            </div>
+            <div className="link-2">
+            <img className='project-img' src={img2}></img>
+            </div>
+            <div className="link-3">
+            <img className='project-img' src={img3}></img>
+            </div>
+            <div className="link-4">
+            <img className='project-img' src={img4}></img>
+            </div>
           </div>
       </body>
     </div>

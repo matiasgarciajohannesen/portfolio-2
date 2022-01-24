@@ -53,8 +53,14 @@ p {
 }
 
 
+.headLine {
+  font-size: 80px;
+  margin: 0;
+  color: white;
+}
+
 .links {
-  margin-top: 40px;
+  margin-top: 30px;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -63,32 +69,44 @@ p {
 }
 
 .link-1 {
+  display: flex;
+  justify-content: center;
   background-color: white;
   margin-left: 200px;
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
 }
+
 .link-2 {
+  display: flex;
+  justify-content: center;
   background-color: white;
   margin-left: 200px;
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
 }
 .link-3 {
   background-color: white;
   margin-left: 200px;  
   margin-top: 80px;  
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
 }
 .link-4 {
   background-color: white;
   margin-left: 200px;
   margin-top: 80px;
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
+}
+
+.project-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+  margin-top: 50px;
 }
