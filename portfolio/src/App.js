@@ -35,16 +35,16 @@ function App() {
 
           <div className="links">
             <div className="link-1">
-              <img className='project-img' src={img1}></img>
+              <a href='https://modest-kepler-ed6546.netlify.app/'><img className='project-img' src={img1}></img></a>
             </div>
             <div className="link-2">
-            <img className='project-img' src={img2}></img>
+              <a href='https://xenodochial-williams-da9e54.netlify.app/'><img className='project-img' src={img2}></img></a>
             </div>
             <div className="link-3">
-            <img className='project-img' src={img3}></img>
+              <a href='https://mystifying-kalam-3810b7.netlify.app/'><img className='project-img' src={img3}></img></a>
             </div>
             <div className="link-4">
-            <img className='project-img' src={img4}></img>
+            <a href='https://objective-mcclintock-d0a380.netlify.app/index.html'><img className='project-img' src={img4}></img></a>
             </div>
           </div>
 
@@ -60,19 +60,19 @@ function App() {
 
             <div className='contLinks'>
               <div className="sosial">
-                <img className='sosial-img' src={img6}></img>
+                <a href='https://twitter.com/MaJohannesen'><img className='sosial-img' src={img6}></img></a>
               </div>
 
               <div className="sosial">
-                <img className='sosial-img' src={img7}></img>
+                <a href='https://www.instagram.com/matiasgarciajohannesen/'><img className='sosial-img' src={img7}></img></a>
               </div>
 
               <div className="sosial">
-                <img className='sosial-img' src={img8}></img>
+                <a href='https://www.linkedin.com/in/matias-garcia-johannesen-b94b29213/'><img className='sosial-img' src={img8}></img></a>
               </div>
 
               <div className="sosial">
-                <img className='sosial-img' src={img9}></img>
+                <a href='https://github.com/matiasgarciajohannesen'><img className='sosial-img' src={img9}></img></a>
               </div>
 
             </div>
